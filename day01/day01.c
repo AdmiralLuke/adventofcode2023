@@ -189,7 +189,7 @@ int substring(char* str) {
 } 
 
 int main() {
-    FILE* input = getFile("input");
+    FILE* input = getFile("input_1_2.txt");
     char* line = getNextLine(input, 256);
     
     int sum = 0;
